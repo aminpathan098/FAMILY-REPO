@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Family Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📒 Family Contact Directory</h1>
+  <div id="login-box">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div id="contact-form" style="display:none;">
+    <input type="text" id="name" placeholder="Name">
+    <input type="text" id="phone" placeholder="Phone">
+    <input type="text" id="address" placeholder="Address">
+    <button onclick="addContact()">Add Contact</button>
+  </div>
+
+  <ul id="contact-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
